@@ -23,7 +23,9 @@ layout:
 
 This challenge was an open source heap challenge with full protections enabled. I didn't solve it during the CTF unfortunately. But I ended up solving it a few days later after the event. Shout out to [ptr-yudai](https://ptr-yudai.hatenablog.com/) for creating this amazing challenge.
 
-You can download the challenge here.
+You can download the challenge files below.
+
+{% file src="../.gitbook/assets/flexvec.zip" %}
 
 ```bash
 [*] '/home/xovert/ctf/A-FinalBhMEA2024/day2/flexvec/flexvec'
@@ -326,7 +328,7 @@ However, three kabsa rice and a can of soda later I somehow got the idea :tada:.
 
 If we take this into account, the idea would be somehow like this:
 
-<img src="../.gitbook/assets/file.excalidraw.svg" alt="malloc -> memcpy -> free" class="gitbook-drawing">
+<img src="../.gitbook/assets/overlap.svg" alt="malloc -> memcpy -> free" class="gitbook-drawing">
 
 This idea uses two overlapping chunks of the same size and utilize the fact that **shrinking twice** creates two chunks of the same size. If there are already two chunks, shrinking them multiple times would just make them switch between the two chunks.
 

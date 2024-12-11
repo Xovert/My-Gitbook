@@ -1,4 +1,6 @@
-# BlackHat MEA Final 2024
+# BlackHat MEA Finals 2024
+
+<figure><img src="../.gitbook/assets/bhmea2024.png" alt=""><figcaption></figcaption></figure>
 
 In this event, there were 7 PWN challenges in total that were given in the span of three days. Unfortunately, I could only solve one of them during the event, and it was a sanity check XD.&#x20;
 
